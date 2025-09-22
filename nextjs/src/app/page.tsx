@@ -3,6 +3,7 @@
 import { Box, Typography } from "@mui/material";
 import NavBar from "../components/ui/nav_menu";
 import Map from "../components/map/map";
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 export default function Home() {
   return (
@@ -18,7 +19,6 @@ export default function Home() {
           p: 3,
           gap: 4,
           flexWrap: "nowrap",
-          position: "sticky",
           top: 0,
           backgroundColor: "transparent",
           zIndex: 10, // ensure header stays above map
@@ -32,7 +32,7 @@ export default function Home() {
             whiteSpace: "nowrap",
           }}
         >
-          Jam On
+          JamOn.
         </Typography>
 
         {/* NavBar */}

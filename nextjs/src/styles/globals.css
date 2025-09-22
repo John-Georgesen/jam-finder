@@ -36,3 +36,19 @@ body {
 	font-size: 3rem !important;
 	line-height: 1.2;
 }
+
+.marker {
+  background-image: url('../../public/pin-marker.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Ensure marker is visible */
+.mapboxgl-marker {
+  z-index: 1000 !important;
+}
