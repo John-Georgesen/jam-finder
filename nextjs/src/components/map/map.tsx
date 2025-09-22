@@ -3,7 +3,6 @@ import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAP_TOKEN || '';
-console.log('MAP_TOKEN:', process.env.NEXT_PUBLIC_MAP_TOKEN);
 
 export default function Map() {
     const mapContainer = useRef<HTMLDivElement>(null);
