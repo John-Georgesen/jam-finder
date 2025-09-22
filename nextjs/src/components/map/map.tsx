@@ -60,7 +60,7 @@ export default function Map() {
                 ref={mapContainer}
                 style={{
                     width: '100%',
-                    height: '500px'
+                    height: '80vh'
                 }}
             />
         </div>

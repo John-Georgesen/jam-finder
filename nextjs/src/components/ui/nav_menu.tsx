@@ -25,7 +25,8 @@ export default function NavBar() {
 					textColor="inherit"
 					sx={{
 						"& .MuiTabs-indicator": {
-						backgroundColor: "white",
+							backgroundColor: "white",
+							transition: "none",
 						},
 					}}
 					onChange={(e, newValue) => setValue(newValue)}
